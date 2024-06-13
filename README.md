@@ -1,6 +1,6 @@
 # SCTP FM Project
 
-This repository contains the minimal set of code needed to reproduce all the results reported in the SCTP FM paper (currently under submission).
+This repository contains the minimal set of code needed to reproduce all the results reported in the SCTP FM paper, available [here](https://arxiv.org/abs/2403.05663).
 
 The repository is organized as follows.
 * `attacker-models/` contains our attacker models.  There are four: Off-Path, Evil-Server, Replay, and On-Path.  The correct inputs for each are given in the paper.  The [Makefile](korg-changes/Makefile) has a target for each to reproduce the corresponding results in our paper.
